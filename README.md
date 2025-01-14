@@ -2,6 +2,6 @@
 It's Just Privacy &amp; Polices For My Website
 
 # 1 Error
-`git status` **When I Switch On  Dark Color**
+`**When I Switch On  Dark Color**` 
 **Title Privacy Policy**
 **Not Showing  Good Its Background Color And  Title Privacy Policy Color Also Same**
