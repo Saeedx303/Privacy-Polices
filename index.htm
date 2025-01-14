@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy</title>
+    <style>
+        :root {
+            --background-light: #f4f4f9;
+            --background-dark: #1c1c1e;
+            --text-light: #333;
+            --text-dark: #eaeaea;
+            --primary-color-light: #3498db;
+            --primary-color-dark: #6a11cb;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: var(--background-light);
+            color: var(--text-light);
+            overflow-y: scroll;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        .container {
+            max-width: 900px;
+            margin: 50px auto;
+            padding: 20px;
+            background: #ffffff;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            border-radius: 12px;
+            transition: background 0.3s;
+        }
+        h1 {
+            text-align: center;
+            font-size: 2.5rem;
+            font-weight: bold;
+            margin-bottom: 20px;
+            background: linear-gradient(to right, var(--primary-color-light), #2575fc);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        body.dark-mode h1 {
+            background: linear-gradient(to right, #333333, #d1d9e6);
+        }
+        h2 {
+            color: var(--primary-color-light);
+            font-size: 1.8rem;
+            border-left: 5px solid var(--primary-color-light);
+            padding-left: 10px;
+            margin-top: 30px;
+            margin-bottom: 15px;
+        }
+        p, ul, li, a {
+            font-size: 1.1rem;
+        }
+        ul {
+            margin: 10px 0 20px 20px;
+        }
+        li {
+            margin: 5px 0;
+        }
+        a {
+            color: var(--primary-color-light);
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .theme-switch {
+            position: fixed;
+            top: 10px;
+            right: 20px;
+            display: flex;
+            align-items: center;
+        }
+        .label {
+            display: inline-flex;
+            align-items: center;
+            cursor: pointer;
+            color: #394a56;
+        }
+        .toggle {
+            isolation: isolate;
+            position: relative;
+            height: 30px;
+            width: 60px;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: -8px -4px 8px 0px #ffffff,
+                8px 4px 12px 0px #d1d9e6,
+                4px 4px 4px 0px #d1d9e6 inset,
+                -4px -4px 4px 0px #ffffff inset;
+        }
+        .toggle-state {
+            display: none;
+        }
+        .indicator {
+            height: 100%;
+            width: 200%;
+            background: #286fa0;
+            border-radius: 15px;
+            transform: translate3d(-75%, 0, 0);
+            transition: transform 0.4s cubic-bezier(0.85, 0.05, 0.18, 1.35);
+            box-shadow: -8px -4px 8px 0px #bcbcbc,
+                8px 4px 12px 0px #000000;
+        }
+        .toggle-state:checked ~ .indicator {
+            transform: translate3d(25%, 0, 0);
+        }
+        body.dark-mode {
+            background-color: var(--background-dark);
+            color: var(--text-dark);
+        }
+        body.dark-mode .container {
+            background: #ce7e00;
+        }
+        body.dark-mode h2 {
+            color: var(--primary-color-dark);
+            border-left: 5px solid var(--primary-color-dark);
+        }
+        body.dark-mode a {
+            color: var(--primary-color-dark);
+        }
+    </style>
+</head>
+<body>
+    <div class="theme-switch">
+        <label class="label">
+            <div class="toggle">
+                <input class="toggle-state" type="checkbox" id="theme-toggle">
+                <div class="indicator"></div>
+            </div>
+        </label>
+    </div>
+
+    <div class="container">
+        <h1>Privacy Policy</h1>
+        <p>Your privacy is important to us. This privacy policy explains how we collect, use, and protect your information when you use our movies website.</p>
+
+        <h2>Information We Collect</h2>
+        <p>We may collect the following types of information:</p>
+        <ul>
+            <li>Personal information, such as your name and email address, when you create an account or contact us.</li>
+            <li>Non-personal information, such as your browser type, IP address, and browsing behavior on our site.</li>
+        </ul>
+
+        <h2>How We Use Your Information</h2>
+        <p>We use the information we collect to:</p>
+        <ul>
+            <li>Provide and improve our services.</li>
+            <li>Respond to your inquiries and support requests.</li>
+            <li>Personalize your experience on our site.</li>
+            <li>Send you updates, promotions, and other relevant information.</li>
+        </ul>
+
+        <h2>Sharing Your Information</h2>
+        <p>We do not sell, trade, or rent your personal information to third parties. However, we may share your information with:</p>
+        <ul>
+            <li>Service providers who help us operate our website.</li>
+            <li>Law enforcement if required by law.</li>
+        </ul>
+
+        <h2>Cookies</h2>
+        <p>We use cookies to enhance your browsing experience. You can disable cookies in your browser settings, but some features of our site may not function properly.</p>
+
+        <h2>Security</h2>
+        <p>We take reasonable measures to protect your information from unauthorized access, disclosure, or misuse.</p>
+
+        <h2>Changes to This Policy</h2>
+        <p>We may update this privacy policy from time to time. Please check this page periodically for updates.</p>
+
+        <h2>Contact Us</h2>
+        <p>If you have any questions about this privacy policy, please contact us at <a href="https://movieshub3me.blogspot.com/">https://movieshub3me.blogspot.com/</a>.</p>
+    </div>
+
+    <script>
+        const toggle = document.getElementById('theme-toggle');
+
+        toggle.addEventListener('change', () => {
+            document.body.classList.toggle('dark-mode');
+        });
+    </script>
+</body>
+</html>
